@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.bartekclk.jlfix.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "jlfix.refmap.json",
+  "mixins": [
+    "RegistryCommonEventsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
