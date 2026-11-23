@@ -5,7 +5,9 @@
   "compatibilityLevel": "JAVA_17",
   "refmap": "jlfix.refmap.json",
   "mixins": [
-    "RegistryCommonEventsMixin"
+    "RegistryCommonEventsMixin",
+    "AptitudeCapabilityMixin",
+    "DeployerSneakMixin"
   ],
   "injectors": {
     "defaultRequire": 1
